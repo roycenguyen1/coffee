@@ -1,0 +1,5 @@
+Name and logo top left  => (logo) Ro.Co
+Nav bar top right with hamburger responsive menu
+2 horizontal border bottom with 2 different colors
+Hero section with blend in image and intro section
+
