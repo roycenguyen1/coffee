@@ -385,7 +385,7 @@ header .nav ul li a:hover::after {
     z-index: 10;
   }
 
-  header .menu {
+  header .nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -398,7 +398,7 @@ header .nav ul li a:hover::after {
     z-index: 5;
   }
 
-  header .menu ul {
+  header .nav ul {
     position: absolute;
     flex-direction: column;
     width: 200vw;
@@ -411,7 +411,7 @@ header .nav ul li a:hover::after {
     transition: transform 0.6s ease-in-out;
   }
 
-  header .menu ul li {
+  header .nav ul li {
     padding: 0.5rem 0;
     margin: 0.5rem 0;
     opacity: 0;
@@ -419,11 +419,11 @@ header .nav ul li a:hover::after {
     transition-delay: 0.4s;
   }
 
-  .open .menu ul {
+  .open .nav ul {
     transform: scale(1);
   }
 
-  .open .menu ul li {
+  .open .nav ul li {
     opacity: 1;
   }
 }
