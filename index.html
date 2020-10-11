@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RO.CO. | Cafe</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fredericka+the+Great&family=Great+Vibes&family=Kristi&family=Mali:wght@300;400;500;600&family=Mr+Dafoe&display=swap"
+    rel="stylesheet">
 
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -20,17 +23,17 @@
 </head>
 
 <body>
+  <a id="top"></a>
   <header>
     <div class="logo">
-      Ro.<span>Co.</span>
+      <a href="index.html">Ro.<span>Co.</span></a>
     </div>
-    <div class="menu" id="menu">
+    <div class="nav" id="nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Location</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
     <div class="hamburger">
@@ -49,7 +52,7 @@
   </div>
   <!-- Hero End -->
   <!-- Boxes -->
-  <div class="boxes">
+  <div class="boxes" id="about">
     <div class="boxes-wrapper">
       <div class="box hours">
         <h2>We Serve</h2>
@@ -76,7 +79,7 @@
       </div>
     </div>
   </div>
-  <div class="menu">
+  <div class="menu" id="menu">
     <div class="col-left">
       <h3>Drinks</h3>
       <div>
@@ -170,6 +173,23 @@
           </p>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="contact" id="contact">
+    <div class="contact-text">5668 Sonia Ports, New Carmela<br>
+      Wisconsin, 93727<br>
+      Tel: 004-704-2906
+    </div>
+    <div class="social">
+      <ul>
+        <li><a href="mailto:roycenguyen1992@gmail.com"><i class="bx bx-mail-send bx-border-circle bx-sm"></i></a></li>
+        <li><a href="https://facebook.com"><i class="bx bxl-facebook bx-border-circle bx-sm"></i></a></li>
+        <li><a href="https://twitter.com"><i class="bx bxl-twitter bx-border-circle bx-sm"></i></a></li>
+        <li><a href="https://instagram.com"><i class="bx bxl-instagram-alt bx-border-circle bx-sm"></i></a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      Copyright &copy; Ro.Co. Café, 2020
     </div>
   </div>
   <script src="main.js"></script>
