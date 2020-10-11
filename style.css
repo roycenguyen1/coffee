@@ -426,6 +426,20 @@ header .nav ul li a:hover::after {
   .open .nav ul li {
     opacity: 1;
   }
+
+  .boxes-wrapper {
+    width: 75%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu > div {
+    margin: 1rem 0;
+  }
 }
 
 @-webkit-keyframes slideIn {
