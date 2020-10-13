@@ -353,6 +353,9 @@ header .nav ul li a:hover::after {
 
 /* Media Queries */
 @media (max-width: 650px) {
+  .hero {
+    background-attachment: scroll;
+  }
   .hamburger {
     display: block;
     font-size: 1.5rem;
