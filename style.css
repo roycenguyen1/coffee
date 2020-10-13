@@ -120,7 +120,7 @@ header .nav ul li a {
   text-transform: uppercase;
   color: var(--light-color);
   padding: 0.4rem 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 header .nav ul li a::before,
