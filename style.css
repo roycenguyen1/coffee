@@ -30,6 +30,11 @@ a {
   text-decoration: none;
 }
 
+a[href^="tel"] {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -120,7 +125,7 @@ header .nav ul li a {
   text-transform: uppercase;
   color: var(--light-color);
   padding: 0.4rem 0;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 header .nav ul li a::before,
@@ -278,45 +283,57 @@ header .nav ul li a:hover::after {
 }
 
 /* Menu */
-.menu {
+.menu-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Alex Brush", cursive;
+  color: #866959;
+}
+
+.menu-title::first-letter {
+  font-size: 4rem;
+  color: #4f6367;
+}
+.menu-content {
   display: flex;
   width: 80%;
   margin: auto;
   justify-content: center;
-  padding-top: 4rem;
+  padding-top: 1rem;
   color: var(--dark-brown);
 }
 
-.menu > div {
+.menu-content > div {
   flex-basis: 50%;
   background: var(--pastel-blue);
   margin: 0 1rem;
   padding: 1rem 2rem;
   border: var(--med-color) 3px dotted;
+  border-radius: 1rem;
 }
 
-.menu > div:last-child {
+.menu-content > div:last-child {
   background: var(--pastel-pink);
   border: #ff9b9b 3px dotted;
 }
-.menu > div h3 {
+.menu-content > div h3 {
   font-family: "Alex Brush", cursive;
   text-align: center;
   padding: 1rem 0;
   color: var(--dark-color);
   font-size: 2rem;
 }
-.menu > div > div {
+.menu-content > div > div {
   display: flex;
   flex-direction: column;
 }
 
-.menu > div > div > div {
+.menu-content > div > div > div {
   display: flex;
   margin: 0.6rem 0;
 }
 
-.menu > div > div > div p:nth-child(1) {
+.menu-content > div > div > div p:nth-child(1) {
   flex: 1;
 }
 
@@ -353,6 +370,9 @@ header .nav ul li a:hover::after {
 
 /* Media Queries */
 @media (max-width: 650px) {
+  .hero {
+    background-attachment: scroll;
+  }
   .hamburger {
     display: block;
     font-size: 1.5rem;
@@ -433,11 +453,11 @@ header .nav ul li a:hover::after {
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .menu {
+  .menu-content {
     flex-direction: column;
   }
 
-  .menu > div {
+  .menu-content > div {
     margin: 1rem 0;
   }
 }
