@@ -157,7 +157,7 @@ header .nav ul li a:hover::after {
 
 /* Hero Section */
 .hero {
-  background: url(img/pexels-madison-inouye-1405761.jpg) no-repeat;
+  background: url(../img/pexels-madison-inouye-1405761.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -227,7 +227,7 @@ header .nav ul li a:hover::after {
 
 .box.hours {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url(./img/pexels-walder-2756804.jpg) no-repeat;
+    url(../img/pexels-walder-2756804.jpg) no-repeat;
   background-position: center;
   background-size: cover;
   width: auto;
@@ -236,7 +236,7 @@ header .nav ul li a:hover::after {
 }
 
 .box.bg-img {
-  background: url(./img/pexels-picjumbocom-196651.jpg) no-repeat;
+  background: url(../img/pexels-picjumbocom-196651.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   width: auto;
